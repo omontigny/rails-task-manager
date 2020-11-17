@@ -5,7 +5,7 @@
   <%= f.input :details %>
   <%= f.check_box :completed if !@task.new_record? %>
   <%= f.label :Completed if !@task.new_record? %>
-  <%= f.submit%>
+  <%= f.submit class: "btn btn-primary"%>
 <% end %>
 
 
